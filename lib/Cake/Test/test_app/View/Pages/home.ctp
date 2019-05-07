@@ -67,6 +67,6 @@ if (isset($filePresent)):
 <?php endif; ?>
 <h3><?php echo __d('cake_dev', 'Editing this Page'); ?></h3>
 <?php
-echo __d('cake_dev', 'To change the content of this page, create: APP/views/pages/home.ctp.<br />
+echo __d('cake_dev', 'To change the content of this page, create: APP/views/pages/index.ctp.<br />
 To change its layout, create: APP/views/layouts/default.ctp.<br />
 You can also add some CSS styles for your pages at: APP/webroot/css.');

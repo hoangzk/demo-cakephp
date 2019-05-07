@@ -94,7 +94,7 @@ class ExtractTaskTest extends CakeTestCase {
 		$pattern = '/"Plural-Forms\: nplurals\=INTEGER; plural\=EXPRESSION;/';
 		$this->assertRegExp($pattern, $result);
 
-		// home.ctp
+		// index.ctp
 		$pattern = '/msgid "Your tmp directory is writable."\nmsgstr ""\n/';
 		$this->assertRegExp($pattern, $result);
 
